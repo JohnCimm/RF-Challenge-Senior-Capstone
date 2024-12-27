@@ -1,0 +1,22 @@
+After setting up base conda env, so to terminal at u#@kingspeak2:icassp2024rfchallenge
+
+1.) source activate base
+2.) conda env create -f rfsionna_env.yml
+
+Activate conda environment
+3.) conda activate rfsionna
+
+Install nvidia cudnn/cuda dependancies
+4.) conda install anaconda::cudnn
+5.) pip install nvidia-cudnn-cu12
+6.) pip install nvidia-cuda-runtime-cu11==11.7.99 nvidia-cuda-nvrtc-cu11==11.7.99
+
+
+
+
+
+
+
+PS: Run sbatch memory.sh The UNet should work!
+
+ 
